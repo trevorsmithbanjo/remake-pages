@@ -1,5 +1,28 @@
 $unordered: none;
 
-ul {
-  list-style: $unordered;
+html {
+  box-sizing: border-box;
+  ul {
+    list-style: $unordered;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #222222;
+}
+
+.logo {
+  height: 60px;
+  width: 100%;
+  display: flex;
+}
+
+.sling-logo {
+  height: 55px;
 }
